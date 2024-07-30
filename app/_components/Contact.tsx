@@ -4,9 +4,9 @@ import React from 'react'
 import ContactForm from './ContactForm'
 function Contact() {
     return (
-        <section className=" md:p-40 p-6 md:px-12">
-            <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
-                <div className="bg-gray-800 rounded-md md:p-28 p-6">
+        <section className="lg:py-32  p-6 lg:px-[20rem]">
+            <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 gap-8">
+                <div className="bg-gray-800 rounded-md xl:p-28 lg:p-14 p-6">
                     <h2 className="text-4xl font-bold mb-4">Contact Us</h2>
                     <p className="text-gray-400 mb-6">Let's get in touch to create something new</p>
                     <div className="space-y-4">
