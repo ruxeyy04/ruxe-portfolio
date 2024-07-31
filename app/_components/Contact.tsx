@@ -4,7 +4,7 @@ import React from 'react'
 import ContactForm from './ContactForm'
 function Contact() {
     return (
-        <section className="lg:py-32  p-6 lg:px-[20rem]">
+        <section className="lg:py-32  p-6 xl:px-[18rem] lg:px-[10rem]">
             <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 gap-8">
                 <div className="bg-gray-800 rounded-md xl:p-28 lg:p-14 p-6">
                     <h2 className="text-4xl font-bold mb-4">Contact Us</h2>
@@ -21,7 +21,7 @@ function Contact() {
                             <MailIcon className="w-6 h-6 text-red-400" />
                             <div>
                                 <h4 className="text-lg font-medium">Email</h4>
-                                <p className="text-gray-400">ruxepasok356@ictim.com</p>
+                                <p className="text-gray-400">ruxepasok356@gmail.com</p>
                             </div>
                         </div>
                         <div className="flex items-center space-x-4">
