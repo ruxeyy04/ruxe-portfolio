@@ -1,5 +1,3 @@
-// app/api/send-email/route.ts
-import { NextResponse } from 'next/server';
 import nodemailer from 'nodemailer';
 
 export async function POST(request: Request) {
@@ -16,7 +14,7 @@ export async function POST(request: Request) {
   try {
    let info = await transporter.sendMail({
         from: email,
-        to: 'pasok.ruxe.23@gmail.com', // your email address
+        to: process.env.EMAIL_TO_SEND, 
         subject: `Contact Form Submission from ${name}`,
         text: message,
       });
